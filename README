@@ -1,0 +1,35 @@
+Python Whatsapp Handler version1.0
+author: Abhay Prajapati
+influence/motivation: YouTube , GeeksforGeeks.com
+This script requires Python language support.
+Please configure python3 before running the program.
+
+installation instructions:
+This program handles whatspp using any one of the four browsers:
+	1) Firefox	https://github.com/mozilla/geckodriver/releases/
+	2) Google Chrome	https://chromedriver.chromium.org/downloads
+	3) Edge		https://chromedriver.chromium.org/downloads
+	4) Safari	
+	
+Browser drivers will be needed to be downloaded and installed to use the script.
+
+Driver installation procedure:
+	linux: paste the driver in /usr/local/bin/
+	mac: run  "safaridriver --enable"	 in terminal to enable if driver is not enabled.
+	windows: 1. On the Windows desktop, right-click My Computer.
+		 2.In the pop-up menu, click Properties.
+		 3.In the System Properties window, click the Advanced tab, and then click Environment Variables.
+		 4.In the System Variables window, highlight Path, and click Edit.
+		 5.In the Edit System Variables window, insert the cursor at the end of the Variable value field.
+			If the last character is not a semi-colon (;), add one.
+		 6.After the final semi-colon, type the full path to the file you want to find.
+
+		Click OK in each open window.
+		
+Navigate to the downloaded folder and open it in terminal window.
+type: python3 whatsapp.py 
+
+Enjoy! 
+
+
+		
