@@ -7,7 +7,7 @@ from selenium.webdriver.common.keys import Keys
 def sendmsg():
 	msg = input("enter message\n")
 	count = int(input("enter count\n"))
-	path = '//div[@data-tab = "1"]'
+	path = '//div[@data-tab = "6"]'
 	box = driver.find_element_by_xpath(path)
 	# box.send_keys(msg)
 	# pathToSend = '//button[@data-icon = "send"]'
